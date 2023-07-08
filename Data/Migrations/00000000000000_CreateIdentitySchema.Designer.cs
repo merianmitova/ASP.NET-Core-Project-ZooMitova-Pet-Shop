@@ -9,7 +9,7 @@ using ZooMitova_Pet_Shop.Data;
 
 namespace ZooMitova_Pet_Shop.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(PetShopDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
